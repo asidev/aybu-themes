@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+#footer {
+	margin-top:			5px;
+	background-color:	#888888;
+	padding:			15px 15px;
+	font-size:			80%;
+
+}
+
+#footer p, #footer div{
+	text-align:	center;
+	color:		#CCCCCC;
+}
+
+#footer p a {
+	color:			#CCCCCC;
+	font-weight:	bold;
+}
+
+#footer p a:hover {
+	text-decoration:	underline;
+}
+
+#footer div {
+	font-size:		70%;
+}

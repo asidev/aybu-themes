@@ -1,0 +1,6 @@
+.dd-target-hover {
+    border: 5px solid red;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter:alpha(opacity=0.5);
+}

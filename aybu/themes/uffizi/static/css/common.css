@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+html {
+	/* Always show a scrollbar for short pages - stops the jump when the scrollbar appears. non-IE browsers */
+	height: 101%;
+}
+body {
+	background-color:	#C9D3DA;
+	font-size:			16px;
+	color:				#666666;
+	font-family:		Arial,Helvetica,sans-serif;
+}
+
+a {
+	text-decoration:	none;
+	color:				#9DB84D;
+}
+
+.reset {
+	height:		0px !important;
+	float:		none !important;
+	clear:		both !important;
+}
+
+
+#wrapper {
+	width:		940px;
+	margin:		auto;
+	margin-top:	10px;
+}
+
+#wrapper >	div {
+	-moz-border-radius:		8px;
+	-webkit-border-radius:	8px;
+	border-radius:			8px;
+}
+
+#content_wrapper {
+	background-color:	#FFFFFF;
+	margin-top:			5px;
+	padding:			35px 15px 15px 15px;
+}
+
+#left {
+	width:			275px;
+	float:			left;
+	margin-right:	15px;
+	padding-top:	5px;
+}
+
+#right {
+	width:		610px;
+	float:		left;
+}
+
+#right h2,  #right h3, #right h4, #right h5, #right h6 {
+	margin-bottom:	10px;
+}
+
+#right h2 {
+	font-size:		140%;
+	line-height:	140%;
+	color:			#9DB84D;
+	font-weight:	bold;
+}
+
+#right p {
+	line-height:	140%;
+	margin-bottom:	10px;
+}
+
+
+#right p span {
+	font-weight:	bold;
+	color:			#9DB84D;
+}
+
+#content_wrapper ul, #content_wrapper ol {
+	list-style-position:	outside;
+}
+
+#content_wrapper ul {
+	margin-left:		15px;
+	list-style-type:	disc;
+}
+
+#content_wrapper ol {
+	margin-left:		30px;
+	list-style-type:	decimal-leading-zero;
+}
+
+#content_wrapper ul li, #content_wrapper ol li {
+	margin-bottom:	10px;
+}
+
+#content_wrapper dl dt {
+	padding-left:	20px;
+	font-weight:	bold;
+}
+
+
+#content_wrapper dl dd {
+	margin:		5px 0px 20px;
+}
+
+#left ul {
+	list-style-type: none !important;
+	margin-left: 	0px;
+}
+
+#left ul li a {
+	display:	block;
+}
+
+#left ul li a.active{
+	font-weight:		bold;
+}
+
+#left ul li a:hover{
+	text-decoration:	underline;
+}
+
+#left ul li a.no-link{
+	margin-bottom:		5px;
+}
+
+#left > * {
+	margin-bottom:	20px;
+}
+
+#news_menu a {
+	display:	inline !important;
+}

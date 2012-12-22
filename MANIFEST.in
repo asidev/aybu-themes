@@ -1,0 +1,2 @@
+recursive-include aybu/themes *
+include LICENSE NOTICE

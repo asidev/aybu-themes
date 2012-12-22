@@ -1,0 +1,15 @@
+*.pyc
+*.orig
+*.egg-info
+.rvmrc
+./aybu/themes/base/static/js/lib/extjs/src/widgets
+./aybu/themes/base/static/js/lib/extjs/src/util
+./aybu/themes/base/static/js/lib/extjs/src/locale
+./aybu/themes/base/static/js/lib/extjs/src/ext-core
+./aybu/themes/base/static/js/lib/extjs/src/state
+./aybu/themes/base/static/js/lib/extjs/src/direct
+./aybu/themes/base/static/js/lib/extjs/src/dd
+./aybu/themes/base/static/js/lib/extjs/src/data
+./aybu/themes/base/static/js/lib/extjs/src/core
+./aybu/themes/base/static/js/lib/extjs/pkgs
+.env

@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+#header {
+	height:				320px;
+	background-color:	#7AACE7;
+	font-size:			16px;
+	width:				940px;
+}
+
+
+#header h1 {
+	width:			340px;
+	height:			120px;
+	text-indent:	-6969px;
+	float:			left;
+	margin:			20px;
+}
+
+
+#header > div {
+	float:			right;
+	margin:			20px;
+}
+
+#languages_wrapper {
+	width:			520px;
+	height:			120px;
+	float:			left;
+}
+
+#languages_wrapper ul {
+	float:			right;
+}
+
+
+#languages_wrapper ul li {
+	width:				32px;
+	height:				32px;
+	margin-left:		8px;
+	background-repeat:	no-repeat;
+	float:				left;
+	text-indent:		-6969px;
+}
+
+#languages_wrapper ul li a {
+	width:			32px;
+	height:			32px;
+	display:		block;
+	text-indent:	-6969px;
+	opacity:		0.4;
+	filter:			alpha(opacity=40);
+}
+
+#languages_wrapper ul li a:hover, #languages_wrapper ul li a.active {
+	opacity:	1;
+	filter:		alpha(opacity=100);
+}
+
+#menu {
+	float:			right;
+	margin-top:		30px !important;
+	height:			42px;
+}
+
+#menu ul {
+	height:			42px;
+}
+
+#menu ul li {
+	float:			left;
+	height:			42px;
+	margin-left:	4px;
+}
+
+#menu ul li a {
+	display:				block;
+	height:					42px;
+	line-height:			42px;
+	padding:				0px 10px;
+	font-size:				120%;
+	font-weight:			bold;
+	color:					#FFFFFF;
+	background: 			url(../images/menu.png) repeat-x top left;
+	-webkit-border-radius:	5px;
+	-moz-border-radius: 	5px;
+	border-radius: 			5px;
+	text-decoration: 		none;
+}
+
+#menu ul li a:hover {
+	background: 	url(../images/menu.png) repeat-x bottom left;
+}
+
+
+#info {
+	width:					910px;
+	height:					61px;
+	margin-top:				5px;
+	background-color:		#EEEEEE;
+	padding:				0px 15px;
+}
+
+#info hr {
+	height: 			1px;
+	border-color:		#FFFFFF;
+	color:				#FFFFFF;
+	background-color:	#FFFFFF;
+	border-style:		solid;
+}
+
+#info ol, #info ul {
+	height:			30px;
+	line-height:	30px;
+	font-size:		70%;
+	vertical-align:	middle;
+}
+
+#info ol li , #info ul li {
+	display:		inline;
+	line-height:	30px;
+	vertical-align:	middle;
+}
+
+#info ol li a, #info ul li a{
+	font-weight:	bold;
+	line-height:	30px;
+	vertical-align:	middle;
+}
+
+#path {
+	float:			left;
+}
+
+#path li a {
+	color:		#666666;
+}
+
+#path li a:hover {
+	color:	#000000;
+}
+
+#path_flag {
+	padding-top:	7px;
+	margin-right: 	10px;
+	height:			16px;
+}
+
+#path_flag img {
+	width:		16px;
+	height:		16px;
+}
+
+#user {
+	float:		right;
+}
+
+#user li a:hover {
+	text-decoration:	underline;
+}

@@ -1,0 +1,12 @@
+
+#mediacollectionpage_children > ol {
+    width: 100%;
+    margin-left: 0;
+}
+
+#mediacollectionpage_children > ol > li {
+    float: left;
+    padding-top: 15px;
+    margin-right: 15px;
+    list-style-type: none;
+}
