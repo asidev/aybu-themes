@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	background-image:		url(../images/bordo.png), url(../images/deco.png);
+	background-repeat:		repeat-x, repeat-y;
+	background-position:	top, top left;
+}
+
+a {
+	color:	#F60;
+}
+
+#search {
+	background-image:	url(../images/search.png);
+}
+
+.menu {
+	background-image:	url(../images/bar.png);
+}
+
+.menu > ul > li {
+	color:	#000;
+}
+
+.menu > ul > li > a {
+	color:	#000;
+}
+
+.menu > ul > li > a:hover, .menu > ul > li > a:focus {
+	background:	url("../images/hover.png") bottom center no-repeat;
+	color:	#F60;
+}
+
+.menu > ul > li > a.active {
+	color:	#F60;
+}
+.menu > ul > li > ul > li {
+	color:	#FF0;
+}
+
+.menu > ul > li > ul > li > a {
+	color:	#FF0;
+}
+
+.menu > ul > li > ul > li > a:hover, .menu > ul > li > ul > li > a:focus,
+.menu > ul > li > ul > li > a.active {
+	color:	#F60;
+}
+
+#editable_content {
+	color: 	#F90;
+}
+
+#editable_content h1, #editable_content h2, #editable_content  h3,
+#editable_content h4, #editable_content h5, #editable_content  h6 {
+	color: 	#F90;
+}
+
+#editable_content p {
+	color: 	#F60;
+}
+
+#editable_content ul, #editable_content ol {
+	color:	#F60;
+}
+
+#editable_content hr {
+	color:	#FF0;
+}
+
+#footer {
+	color:	#F60;
+}
+
+#footer p {
+	color: 	#F60;
+}
+
+#user > li {
+	color: 	#F60;
+}
+
+#user > li > a {
+	color: 	#F60;
+}
+
+#copyright {
+	color:	#F60;
+}
+
+#copyright a {
+	color:	#F60;
+}

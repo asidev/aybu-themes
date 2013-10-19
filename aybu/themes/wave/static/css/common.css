@@ -1,0 +1,374 @@
+@charset "utf-8";
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+@font-face {
+		font-family: bluehighway;
+		src: url(../fonts/bluehighway.ttf);
+}
+.clear {
+		/*Clean the float blocks*/
+		clear:	both !important;
+		float:	none !important;
+		width:	0px !important;
+		height:	0px !important;
+}
+html {
+		height:	101%;
+}
+body {
+		background-color: 	#969696;
+		font-family:		bluehighway,arial,sans-serif;
+		margin: 			10px 0px;
+}
+a {
+		text-decoration: none;
+}
+#wrap {
+		width:		1000px;
+		margin:		0px auto;
+		background-color: #FFFFFF;
+		background-image: none;
+		-moz-box-shadow: 0px 5px 15px #555555; /* Firefox 3.6 and earlier */
+		-webkit-box-shadow: 0px 5px 15px #555555; /* Safari and Chrome */
+		box-shadow: 0px 5px 15px #555555;
+}
+/*Shadows*/
+#wrap > div.shadow_down {
+		width:		1000px;
+		height:		10px;
+		background:	transparent url(../images/shadow_down.png) repeat-x;
+}
+#wrap > div.shadow_up {
+		width: 1000px;
+		height: 10px;
+		background: transparent url(../images/shadow_up.png) repeat-x;
+}
+#header {
+		width: 940px;
+		height: 200px;
+		padding: 0px 30px;
+}
+#header > div {
+		width: 940px;
+}
+#header li {
+		float:			left;
+		color:			#ffffff;
+		font-family:	arial, sans-serif;
+		font-size:		11px;
+		font-weight:	bold;
+}
+#header li > a:hover, #banner li > a:focus {
+		text-decoration: underline;
+}
+#header > div:first-child {
+		height:		32px;
+}
+#languages {
+		height: 32px;
+		float:	right;
+}
+#languages > li {
+		height: 32px;
+		width:	32px;
+		margin-left: 5px;
+}
+
+#languages > li > a {
+		height:			32px;
+		width:			32px;
+		filter:			alpha(opacity=50);
+		opacity:		0.5;
+		display:		block;
+		text-indent:	-6969px;
+}
+#languages > li > a:hover, #languages > li > a:focus {
+		opacity: 	0.8;
+		filter: 	alpha(opacity=80);
+}
+#languages > li > a.active {
+		opacity:	1;
+		filter:		alpha(opacity=100);
+}
+/*Logo*/
+#logo {
+		display: block;
+		float: left;
+		/*
+		width:	260px;
+		height: 140px;
+		*/
+}
+#site_info {
+		width:	680px;
+		height: 140px;
+		float:	left;
+}
+/*TiTle*/
+#header h1 {
+		width:			680px;
+		height:			80px;
+		line-height:	80px;
+		text-align:		center;
+		font-size:		75px;
+		font-weight:	normal;
+		text-shadow:	0px 0px 10px #ffffff;
+}
+
+/*Slogan*/
+#header h2 {
+		width:			680px;
+		height:			40px;
+		line-height:	40px;
+		font-family:	arial,sans-serif;
+		text-align:		center;
+		font-size:		32px;
+		font-weight:	normal;
+		color:			#E3E3E3;
+}
+
+/*Navigation Path*/
+
+#path {
+		float: 		left;
+		height:		28px;
+}
+
+#path > li {
+		height:		28px;
+		line-height:	28px;
+}
+
+#path > li > img {
+		width:	20px;
+		height: 20px;
+		margin: 4px 5px 4px 0px;
+}
+
+#path > li > a {
+		line-height:	28px;
+}
+
+
+#user {
+		float: 		right;
+		height:		28px;
+}
+
+#user > li {
+		height:			28px;
+		line-height:	28px;
+		margin-left:	5px;
+}
+
+#user > li > a {
+		line-height:	28px;
+}
+
+/*Menu*/
+#menu {
+		width:		960px;
+		height:		30px;
+		padding:	0px 20px;
+		position: relative;
+}
+
+#menu > ul > li {
+		float:		left;
+		height: 	30px;
+}
+
+#menu > ul > li > a{
+		display:		block;
+		height:			30px;
+		line-height:	30px;
+		padding:		0px 10px;
+		font-size:		21px;
+		font-family:	bluehighway,arial,sans-serif;
+		letter-spacing: 0.5px;
+}
+
+#menu > ul > li > a:hover, #menu > ul > li > a:focus, #menu > ul > li > a.active {
+		background: transparent url(../images/px_black.png) repeat;
+		color:		#ffffff;
+}
+
+#menu > ul > li > ul {
+		background: transparent url(../images/px_black.png) repeat;
+		display:	none;
+}
+
+#menu > ul > li > ul > li {
+		height:			25px;
+		line-height:	25px;
+		padding:		0px 10px;
+}
+
+#menu > ul > li > ul > li > a {
+		height:			25px;
+		line-height:	25px;
+}
+
+#menu > ul > li > ul > li > a:hover, #menu > ul > li > ul > li > a:focus,
+#menu > ul > li > ul > li > a.active  {
+		text-decoration:	underline;
+}
+
+#content_wrapper {
+		width:		960px;
+		min-height:	400px;
+		padding:	10px 20px;
+}
+
+/*Intern SubMenu*/
+#left {
+		float:		left;
+		width:		200px;
+		padding:	10px 10px 10px 0px;
+}
+
+#left > ul {
+		list-style:		none;
+}
+
+#left > ul > li {
+		height:			20px;
+		margin-bottom:	10px;
+}
+
+#left > ul > li > a{
+		display:		block;
+		height:			20px;
+		font-size:		15px;
+		font-family:	arial,sans-serif;
+		line-height:	20px;
+		color:			#000000;
+		font-weight:	bold;
+		padding:		0px 10px;
+}
+
+#left > ul > li > a:hover, #left > ul > li > a:focus,
+#left > ul > li > a.active{
+		color:		#ffffff;
+		background: transparent url(../images/px_black.png) repeat;
+}
+
+
+#right {
+		float:		left;
+		width:		730px;
+		padding:	10px;
+}
+
+/*Intern Text*/
+
+#editable_content h1, #editable_content h2, #editable_content h3,
+#editable_content h4, #editable_content h5, #editable_content h6 {
+		margin-bottom:	10px;
+}
+
+#editable_content h1{
+		font-size:	30px;
+}
+
+#editable_content h2 {
+		font-size:	29px;
+}
+
+#editable_content h3, #editable_content h4 {
+		font-size:	29px;
+}
+
+#editable_content h5, #editable_content h6 {
+		font-size:	28px;
+}
+
+#editable_content p {
+		font-size:		13px;
+		font-family:	arial, sans-serif;
+		margin-bottom:	10px;
+}
+
+#editable_content a {
+		font-weight:	bold;
+}
+#editable_content strong {
+		font-weight:	bold;
+}
+
+#editable_content a:hover, #editable_content a:focus {
+		text-decoration:	underline;
+}
+
+#editable_content ul {
+	line-height: 110%;
+	list-style: square inside;
+	margin: 0px 0px 10px 20px;
+}
+#editable_content ol {
+	line-height: 110%;
+	list-style: inside decimal-leading-zero;
+	margin: 0px 0px 10px 20px;
+}
+
+#editable_content li ul {
+	margin-bottom: 0px;
+	list-style-position: inside;
+}
+#editable_content ul ul {
+	margin-bottom: 0px;
+	list-style-position: inside;
+}
+#editable_content li ol {
+	margin-bottom: 0px;
+	list-style: inside decimal;
+}
+#editable_content ol ol {
+	margin-bottom: 0px;
+	list-style: inside decimal;
+}
+#editable_content ul ol {
+		margin-bottom: 0px;
+		list-style: inside decimal;
+}
+#editable_content ol ul {
+		margin-bottom: 0px;
+		list-style: inside square;
+}
+#editable_content li {
+		margin-bottom: 2px;
+}
+/* Table*/
+#editable_content tr, #editable_content td  {
+		border: #000000 1px solid;
+}
+#editable_content table {
+	margin-bottom: 10px;
+}
+#editable_content td {
+	padding: 0px 5px;
+}
+#editable_content cite, #editable_content address {
+			font-style: italic;
+}
+/*Footer*/
+#footer {
+		width: 			1000px;
+		height:			80px;
+		background: 	transparent url(../images/footer1.png) repeat-x;
+		padding-top:	130px;
+
+}
+
+#footer, #footer > p, #footer a {
+		text-align:		center;
+		font-family:	arial, sans-serif;
+		font-size:		11px;
+		font-weight:	bold;
+}
+
+#footer a:hover, #footer a:focus {
+		text-decoration:	underline;
+}

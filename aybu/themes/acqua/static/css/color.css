@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+body {
+	background-color:	#00B4E7;
+}
+
+a {
+	color:		#00B4E7;
+}
+
+#wrap {
+	background:	#FFF url(../images/logo_box.png) no-repeat left 80px;
+}
+
+#header {
+	background:	url(../images/flags_box.png) no-repeat right top;
+}
+
+#header > h2 {
+	color:		#00B4E7;
+}
+
+#user > li {
+	color:		#0D257F;
+}
+
+#user > li > a {
+	color:		#0D257F;
+}
+
+#all_content {
+	background:	url(../images/menu.png) no-repeat center bottom;
+}
+
+#content_wrapper {
+	background:	#FFFFFF url(../images/menu.png) no-repeat center bottom;
+}
+
+#path > li {
+	color:		#00B4E7;
+}
+
+#path > li > a {
+	color:		#00B4E7;
+}
+
+#editable_content {
+	color:		#0D257F;
+}
+
+#editable_content h1, #editable_content h2, #editable_content h3,
+#editable_content h4, #editable_content h5, #editable_content h6 {
+	color:		#00B4E7;
+}
+
+#menu > ul > li {
+	color:		#0D257F;
+}
+
+#menu > ul > li > a {
+	color:		#0D257F;
+}
+
+#menu > ul > li > a:hover, #menu > ul > li > a:focus,
+#menu > ul > li > a.active {
+	color:				#FFF;
+}
+
+#footer {
+	color:		#0D257F;
+}
+
+#footer a {
+	color:		#0D257F;
+}
+
+#footer a:hover, #footer a:focus {
+	color:		#FFF;
+}

@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ * GReen Version
+ */
+
+body, #menu > ul {
+	background-color: #005714;
+}
+
+#banner > div:first-child > h2 {
+	color: #005714;
+}
+
+#menu {
+	background-color: #005714;
+}
+
+#path a:hover, #path a:focus{
+	color: #1a1a1a;
+}
+
+#menu > ul > li > a {
+	color: #ffffff;
+}
+
+#menu > ul > li > a:hover, #menu > ul > li > a:focus, #menu > ul > li > a.active {
+	background-color: #1a1a1a;
+	color: #ffffff;
+}
+
+#menu > ul > li > ul > li > a:hover, #menu > ul > li > ul > li > a:focus {
+	color: #005714;
+	text-decoration: underline;
+}
+
+#content a  {
+	color: #005714;
+}

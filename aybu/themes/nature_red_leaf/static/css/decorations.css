@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+/*
+ * This is leaf decorations for Red version
+*/
+
+#right h1, #right h2, #right h3,
+#right h4, #right h5, #right h6 {
+	height:			46px;
+	line-height:	46px;
+	padding-left:	25px;
+	background:		transparent url(../images/red_leaf_big.png) no-repeat top left;
+}
+
+#right ul {
+	list-style-image: url(../images/red_leaf_small.png);
+}

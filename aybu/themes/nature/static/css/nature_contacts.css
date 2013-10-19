@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+
+
+/*
+
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+
+ */
+#form {
+	width: 730px;
+}
+
+#columnleft, #columnright {
+	width: 365px;
+	float: left;
+}
+
+#columnleft label, #columnleft input, #columnleft textarea, #privacy_policy, #captcha {
+	width: 280px;
+}
+
+#bottone_invia {
+	width: 730px;
+	float: left;
+	text-align: center;
+}
+

@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ * Red version
+ */
+
+body {
+	background-color: #F2F2F2;
+}
+
+a, #user > li, #languages > li, #path > li,
+#menu > ul > li > a, #menu > ul > li > ul > li > a {
+	color: #000000;
+}
+
+#user a:hover, #user a:focus, #path > li a:hover,
+#path > li a:focus, #left a:hover, #left a:focus,
+#editable_content cite,
+#editable_content a:hover, #editable_content a:focus,
+#editable_content h1, #footer a:hover, #footer a:focus {
+	color: #BF272D;
+}
+
+#menu > ul > li > ul > li > a.active, #menu > ul > li > a.active {
+	color: #B1B1B1;
+}
+
+#path > li a:hover, #path > li a:focus {
+	color: #000000;
+}
+
+#banner {
+	background: transparent url(../images/banner_red.png) no-repeat;
+}
+
+#menu, #wrapper  {
+	background: transparent url(../images/px_center_red.png) repeat-y;
+}
+#menu > ul {
+	background: transparent url(../images/px_menu_red.png) repeat-x;
+}
+
+#menu > ul li a:hover, #menu ul li  a:focus,
+#menu > ul > li > ul > li > a.active {
+	background: transparent url(../images/px_menu_hover_black.png) repeat;
+	color: #FFFFFF;
+}
+
+#menu > ul > li > ul {
+	background-color: #BF272D;
+}
+
+#right {
+	border-left: 1px solid #BF272D;
+}
+
+#editable_content h1 {
+	border-bottom: 1px solid #BF272D;
+	border-top: 1px solid #BF272D;
+}
+
+#editable_content ul, #editable_content ol {
+	border: #BF272D dashed 2px;
+	}
+
+#footer {
+	background: transparent url(../images/footer_red.png) repeat-y;
+	color: #FFFFFF;
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ * brown Template
+ */
+
+a, #header li, #header h1, #footer, #menu > ul > li > a {
+	color:	#ffffff;
+}
+
+#menu > ul > li > a {
+	text-shadow: 0px 0px 1px #ffffff;
+}
+
+#header {
+	background: transparent url(../images/px_banner_brown.png) repeat-x;
+}
+
+#menu {
+	background: transparent url(../images/px_menu_brown.png) repeat-x;
+}
+
+#footer {
+	background: transparent url(../images/footer_brown.png) repeat-x;
+
+}
+
+#editable_content a {
+	color:	#550000;
+}

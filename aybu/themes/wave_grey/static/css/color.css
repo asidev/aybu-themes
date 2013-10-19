@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+
+/*
+
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+
+ * grey Template
+
+ */
+
+
+
+a, #header li, #header h1, #footer, #menu > ul > li > a {
+
+	color:	#000000;
+
+}
+
+#menu > ul > li > ul > li > a {
+
+	color:	#FFFFFF;
+}
+
+
+
+#header {
+
+	background: transparent url(../images/px_banner_grey.png) repeat-x;
+
+}
+
+
+
+#menu {
+
+	background: transparent url(../images/px_menu_grey.png) repeat-x;
+
+}
+
+
+
+#footer {
+
+	background: transparent url(../images/footer_grey.png) repeat-x;
+
+
+
+}
+
+
+
+#editable_content a {
+
+	color: #E3E3E3;
+
+}

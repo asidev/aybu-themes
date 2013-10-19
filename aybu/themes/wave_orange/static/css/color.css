@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ * orange Template
+ */
+
+a, #header li, #header h1, #footer, #menu > ul > li > a {
+	color:	#000000;
+}
+
+#wrap {
+	background-color: #FFFFFF;
+	background-image: none;
+	-moz-box-shadow: 0px 5px 15px #555555; /* Firefox 3.6 and earlier */
+	-webkit-box-shadow: 0px 5px 15px #555555; /* Safari and Chrome */
+	box-shadow: 0px 5px 15px #555555;
+
+}
+
+#menu > ul > li > ul > li > a {
+	color: #FFFFFF;
+}
+
+#header {
+	background: transparent url(../images/px_banner_orange.png) repeat-x;
+}
+
+#menu {
+	background: transparent url(../images/px_menu_orange.png) repeat-x;
+}
+
+#footer {
+	background: transparent url(../images/footer_orange.png) repeat-x;
+
+}
+
+#editable_content a {
+	color: #fe9b22;
+}

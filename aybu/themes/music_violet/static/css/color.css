@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body {
+	background-image:		url(../images/bordo.png), url(../images/deco.png);
+	background-repeat:		repeat-x, repeat-y;
+	background-position:	top, top left;
+}
+
+a {
+	color:	#CCC;
+}
+
+#search {
+	background-image:	url(../images/search.png);
+}
+
+.menu {
+	background-image:	url(../images/bar.png);
+}
+
+.menu > ul > li {
+	color:	#000;
+}
+
+.menu > ul > li > a {
+	color:	#000;
+}
+
+.menu > ul > li > a:hover, .menu > ul > li > a:focus {
+	background:	url("../images/hover.png") bottom center no-repeat;
+	color:	#CCC;
+}
+
+.menu > ul > li > a.active {
+	color:	#CCC;
+}
+.menu > ul > li > ul > li {
+	color:	#CCC;
+}
+
+.menu > ul > li > ul > li > a {
+	color:	#CCC;
+}
+
+.menu > ul > li > ul > li > a:hover, .menu > ul > li > ul > li > a:focus,
+.menu > ul > li > ul > li > a.active {
+	color:	#7F4F97;
+}
+
+#editable_content {
+	color: 	#7F4F97;
+}
+
+#editable_content h1, #editable_content h2, #editable_content  h3,
+#editable_content h4, #editable_content h5, #editable_content  h6 {
+	color: 	#CCC;
+}
+
+#editable_content p {
+	color: 	#CCC;
+}
+
+#editable_content ul, #editable_content ol {
+	color:	#CCC;
+}
+
+#editable_content hr {
+	color:	#7F4F97;
+}
+
+#footer {
+	color:	#CCC;
+}
+
+#footer p {
+	color: 	#CCC;
+}
+
+#user > li {
+	color: 	#CCC;
+}
+
+#user > li > a {
+	color: 	#CCC;
+}
+
+#copyright {
+	color:	#CCC;
+}
+
+#copyright a {
+	color:	#CCC;
+}

@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+/*
+ * This is leaf decorations for Blue version
+*/
+
+#right h1, #right h2, #right h3,
+#right h4, #right h5, #right h6 {
+	height:			30px;
+	line-height:	30px;
+	padding-left:	20px;
+	background:		transparent url(../images/green_leaf_big.png) no-repeat;
+}
+
+#right ul {
+	list-style-image: url(../images/green_leaf_small.png);
+}

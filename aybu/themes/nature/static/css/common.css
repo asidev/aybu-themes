@@ -1,0 +1,281 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+@font-face {
+	font-family: arno_bold;
+	src: url('../fonts/ArnoPro-BoldItalicCaption.otf');
+}
+
+html {
+	height:					101%;
+}
+
+body {
+	font-family: 'Ubuntu', arial, serif;
+	font-size:		14px;
+	background:		transparent url(../images/texturebackground.png) repeat;
+}
+
+.clear {
+	/*Clean the float blocks*/
+	clear:		both !important;
+	float:		none !important;
+	width:		0px !important;
+	height:		0px !important;
+}
+
+#all {
+	width:					1000px;
+	margin:					20px auto;
+	-moz-box-shadow:		0px 5px 15px #000000;
+	-webkit-box-shadow:		0px 5px 15px #000000;
+	box-shadow:				0px 5px 15px #000000;
+}
+
+a {
+	text-decoration:	none;
+	font-weight:     	bold;
+}
+
+#header, #footer {
+	width:			1000px;
+	height:			75px;
+}
+
+#tools {
+	height:			75px;
+	float:			left;
+	margin-left:	10px;
+}
+
+#tools ul, #tools ol {
+	height:			30px;
+	margin-top:		5px;
+}
+
+#tools li {
+	height:			30px;
+	line-height:	30px;
+	float: 			left;
+}
+
+#tools li a {
+	height:			30px;
+	line-height:	30px;
+	display:		block;
+	float: 			left;
+}
+
+#user > li > a {
+	margin:			0px 5px;
+}
+
+#path_flag img {
+	width:			20px;
+	height:			20px;
+	margin:			5px 10px 0px 0px;
+}
+
+#languages {
+	height:			32px;
+	float:			right;
+	margin-top:		10px;
+	margin-right:	10px;
+}
+
+#languages li {
+	float:			left;
+	height:			32px;
+	width:			32px;
+	margin-left:	5px;
+}
+
+#languages a {
+	display:		block;
+	height:			32px;
+	width:			32px;
+	opacity:		0.4;
+	filter:			alpha(opacity=40);
+	text-indent:	-6969px;
+}
+
+#languages a:hover, #languages a.active {
+	opacity:		1;
+	filter:			alpha(opacity=100);
+}
+
+
+#banner h1 {
+	line-height:		30px;
+	font-size:			30px;
+	color:				#2C4311;
+	margin:				20px;
+	float:				right;
+	font-weight:		normal;
+	text-shadow: 0 0 2px #FFFFFF;
+    -moz-text-shadow: 0 0 2px #FFFFFF;
+    -webkit-text-shadow: 0 0 2px #FFFFFF;
+	font-family: 'Ubuntu', arial, serif;
+}
+
+#content_wrapper {
+	width:				1000px;
+	padding:			20px 0px;
+	min-height:			400px;
+}
+
+#left {
+	width:				230px;
+	float:				left;
+	padding:			10px;
+	font-size:			16px;
+}
+
+#left a {
+	-moz-box-shadow:		0px -1px 5px #333333;
+	-webkit-box-shadow:		0px 5px 15px #333333;
+	box-shadow:				0px 5px 15px #333333;
+	-webkit-border-radius:	3px;
+	-moz-border-radius:		3px;
+	border-radius:			3px;
+}
+
+#left a:hover {
+	background:		transparent url(../images/pxcream_hovermenu.png) repeat;
+}
+
+
+#left > ul {
+	width:				230px;
+}
+
+#left > ul > li {
+	line-height:		0px;
+	margin-bottom:		5px;
+}
+
+#left > ul > li > a {
+	height:				30px;
+	line-height:		30px;
+	width:				200px;
+	display:			block;
+	padding:			0px 5px;
+}
+
+#left > ul > li ul {
+	margin-left: 		15px;
+}
+
+#left > ul > li ul li {
+	font-weight:		normal;
+	margin-top:			5px;
+}
+
+#left ul > li ul li a {
+	height:				25px;
+	line-height:		25px;
+	width:				200px;
+	font-weight:		normal;
+	display:			block;
+	padding:			0px 5px;
+}
+
+#left a.active {
+	background:		transparent url(../images/pxblack_activemenu.png) repeat;
+}
+
+#right {
+	width:				670px;
+	float:				right;
+	padding:			10px 40px;
+}
+#editable_content p {
+	margin-bottom: 10px;
+}
+#editable_content cite, #editable_content em {
+	font-style: italic;
+}
+#editable_content  address {
+	font-style: oblique;
+}
+#editable_content strong {
+	font-weight: bold;
+}
+#editable_content a:hover, #editable_content a:focus {
+	text-decoration: underline;
+}
+#editable_content h1, #editable_content h2, #editable_content h3, #editable_content h4,#content h5,#editable_content h6 {
+	margin-bottom: 10px;
+	font-weight: normal;
+	font-size: 20px;
+}
+/* ordered & unordered list size & stiles*/
+#editable_content ul {
+	line-height: 110%;
+	list-style: circle inside;
+	margin-bottom: 10px;
+}
+#editable_content ol {
+	line-height: 110%;
+	list-style: inside decimal-leading-zero;
+	margin-bottom: 10px;
+}
+
+#editable_content li ul {
+	margin-bottom: 0px;
+	list-style-position: inside;
+	margin-left: 20px;
+}
+#editable_content ul ul {
+	margin-bottom: 0px;
+	list-style-position: inside;
+	margin-left: 20px;
+}
+#editable_content li ol {
+	margin-bottom: 0px;
+	list-style: inside decimal;
+	margin-left: 20px;
+}
+#editable_content ol ol {
+	margin-bottom: 0px;
+	list-style: inside decimal;
+}
+#editable_content ul ol {
+		margin-bottom: 0px;
+		list-style: inside decimal;
+		margin-left: 20px;
+}
+#editable_content ol ul {
+		margin-bottom: 0px;
+		list-style: inside square;
+		margin-left: 20px;
+}
+#editable_content li {
+		margin-bottom: 2px;
+}
+#editable_content li {
+	line-height: 130%;
+}
+/* Table*/
+#editable_content tr, #editable_content td  {
+	border: #000000 1px solid;
+}
+#editable_content table {
+	margin-bottom: 10px;
+}
+#editable_content td {
+	padding: 5px 10px;
+}
+#footer > div {
+	height: 			30px;
+	line-height: 		30px;
+	padding-top: 		5px;
+	text-align:			center;
+}
+
+#footer p {
+	text-align:			center;
+}

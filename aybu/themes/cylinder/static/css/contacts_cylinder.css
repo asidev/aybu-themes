@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+#editable_content, #contacts_form_content {
+	width: 430px;
+	margin-right: 20px;
+	float: left;
+}

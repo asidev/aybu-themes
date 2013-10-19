@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ * Black Background - Red Text
+ */
+
+body, #menu > ul {
+	background-color: #1a1a1a;
+}
+
+#banner > div:first-child > h2 {
+	color: #861010;
+}
+
+#menu {
+	background-color: #1a1a1a;
+}
+
+#path a:hover, #path a:focus{
+	color: #861010;
+}
+
+#menu > ul > li > a {
+	color: #ffffff;
+}
+
+#menu > ul > li > a:hover, #menu > ul > li > a:focus, #menu > ul > li > a.active{
+	background-color: #861010;
+	color: #ffffff;
+}
+
+#menu > ul > li > ul > li > a:hover, #menu > ul > li > ul > li > a:focus {
+	color: #861010;
+	text-decoration: underline;
+}
+
+#editable_content a, #left a, #right a {
+	color: #861010;
+}

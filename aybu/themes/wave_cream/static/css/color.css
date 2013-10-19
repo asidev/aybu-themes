@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+
+
+/*
+
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+
+ * cream Template
+
+ */
+
+
+
+a, #header li, #header h1, #footer, #menu > ul > li > a {
+
+	color:	#000000;
+
+}
+
+#menu > ul > li > ul > li > a {
+
+	color:	#FFFFFF;
+}
+
+
+
+#header {
+
+	background: transparent url(../images/px_banner_cream.png) repeat-x;
+
+}
+
+
+
+#menu {
+
+	background: transparent url(../images/px_menu_cream.png) repeat-x;
+
+}
+
+
+
+#footer {
+
+	background: transparent url(../images/footer_cream.png) repeat-x;
+
+
+
+}
+
+
+
+#editable_content a {
+
+	color:	#D5CEA6;
+
+}

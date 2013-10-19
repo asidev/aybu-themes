@@ -1,0 +1,137 @@
+@charset "utf-8";
+
+
+
+/*
+
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+
+ */
+
+
+
+/*
+
+ * This is yellow version
+
+ */
+
+
+
+body {
+
+		background: 	transparent url(../images/texturebackground.png) repeat;
+
+	}
+
+
+
+#header, #footer {
+
+		background:		transparent url(../images/pxyellow_headfoot.png) repeat;
+
+		color:			#EDEDD1;
+
+	}
+
+
+
+#header a, #footer a {
+
+		color:			#EDEDD1;
+
+	}
+
+
+
+#header a:hover, #footer a:hover {
+
+		color: 			#895176;
+
+	}
+
+
+
+#banner {
+
+		background:		transparent url(../images/banneryellow.png) repeat;
+
+	}
+
+
+
+#banner h1 {
+
+		color:			#EDEDD1;
+
+	}
+
+
+
+#content_wrapper {
+
+		background:		transparent url(../images/pxyellow_contentmenu.png) repeat;
+
+	}
+
+
+
+#left a {
+
+		color:			#EDEDD1;
+
+		background:		transparent url(../images/pxyellow_contentmenu.png) repeat;
+
+	}
+
+
+
+#left a:hover {
+
+		color:			#895176;
+
+		background:		transparent url(../images/pxcream_hovermenu.png) repeat;
+
+	}
+
+
+
+#left a:active {
+
+		color:			#EDEDD1;
+
+		background:		transparent url(../images/pxblack_activemenu.png) repeat;
+
+	}
+
+
+
+#right a {
+
+		color:			#895176;
+
+	}
+
+
+
+#right a:hover {
+
+		color: 			#000000;
+
+	}
+
+
+
+#right h2,h3,h4,h5,h6 {
+
+		background:		transparent url(../images/yellow_leaf_big.png) no-repeat;
+
+	}
+
+
+
+#right ul {
+
+		list-style-image: url(../images/yellow_leaf_small.png);
+
+	}

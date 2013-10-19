@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ * purple Template
+ */
+
+a, #header li, #header h1, #footer, #menu > ul > li > a {
+	color:	#ffffff;
+}
+
+#menu > ul > li > a {
+	text-shadow: 0px 0px 1px #ffffff;
+}
+
+#header {
+	background: transparent url(../images/px_banner_purple.png) repeat-x;
+}
+
+#menu {
+	background: transparent url(../images/px_menu_purple.png) repeat-x;
+}
+
+#footer {
+	background: transparent url(../images/footer_purple.png) repeat-x;
+
+}
+
+#editable_content a {
+	color: #2f022f;
+}

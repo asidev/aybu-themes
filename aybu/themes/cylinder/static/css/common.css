@@ -1,0 +1,690 @@
+@charset "utf-8";
+
+
+
+/*
+
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+
+ */
+
+
+
+@font-face {
+
+	font-family: calibri;
+
+	src: url(../fonts/calibri.ttf);
+
+}
+
+
+
+@font-face {
+
+	font-family: calibri_bold;
+
+	src: url(../fonts/calibri_bold.ttf);
+
+}
+
+
+
+@font-face {
+
+	font-family: calibri_italic;
+
+	src: url(../fonts/calibri_italic.ttf);
+
+}
+
+
+
+.clear {/*Clean the float blocks*/
+
+	clear:		both !important;
+
+	float:		none !important;
+
+	width:		0px !important;
+
+	height:		0px !important;
+
+}
+
+
+
+
+
+html {
+
+	height:		101%;
+
+}
+
+
+
+body {
+
+	color:			#000000;
+
+	font-family: 	calibri;
+
+}
+
+
+
+#all {
+
+	width: 		1000px;
+
+	margin: 	10px auto;
+
+}
+
+
+
+#top {
+
+	width: 		900px;
+
+	height: 	35px;
+
+	padding: 	0px 50px;
+
+}
+
+
+
+/*Log-in Control*/
+
+#user {
+
+	float: left;
+
+	height: 35px;
+
+}
+
+
+
+#user > li {
+
+	float: left;
+
+	color: #FFFFFF;
+
+	margin-right: 2px;
+
+}
+
+
+
+#user > li > a {
+
+	color: #FFFFFF;
+
+	font-family: arial, sans-serif;
+
+	font-size: 12px;
+
+	line-height: 35px;
+
+	text-decoration: none;
+
+}
+
+
+
+#user > li > a:hover, #user > li a:focus {
+
+	text-decoration: underline;
+
+}
+
+
+
+/*Languages*/
+
+#languages {
+
+	float: right;
+
+	height: 35px;
+
+}
+
+
+
+#languages > li {
+
+	width: 		30px;
+
+	height:		30px;
+
+	float:		left;
+
+	margin:		2.5px;
+
+}
+
+
+
+#languages > li > a {
+
+	width: 			30px;
+
+	height:			30px;
+
+	float:			left;
+
+	opacity:		0.5;
+
+	text-indent:	-6969px;
+
+}
+
+
+
+#languages > li > a:hover, #languages > li > a:focus {
+
+	opacity: 0.8;
+
+}
+
+
+
+#languages > li > a.active {
+
+	opacity: 1;
+
+}
+
+
+
+#banner {
+
+	width:			1000px;
+
+	height: 		210px;
+
+	background: 	transparent url(../images/top.png) top no-repeat;
+
+	padding-top:	35px;
+
+}
+
+
+
+#banner > div {
+
+	width: 		900px;
+
+	height: 	170px;
+
+	background: transparent url(../images/centerpx.png) repeat-y;
+
+	padding: 	10px 50px 0px;
+
+}
+
+
+
+/*Logo*/
+
+#logo {
+
+	display: 		block;
+
+	float: 			left;
+
+	margin-right:	20px;
+
+}
+
+
+
+/*Title*/
+
+#banner > div:first-child > h1 {
+
+	width: 			650px;
+
+	height:			65px;
+
+	line-height:	65px;
+
+	font-size:		60px;
+
+	float: 			right;
+
+	text-align:		center;
+
+	font-weight: 	normal;
+
+	font-family:	calibri_bold;
+
+}
+
+
+
+/*Slogan*/
+
+#banner > div:first-child > h2 {
+
+	width: 			650px;
+
+	line-height: 	45px;
+
+	float: 			right;
+
+	text-align: 	center;
+
+	font-size: 		40px;
+
+	font-weight:	normal;
+
+	font-family:	calibri_bold;
+
+}
+
+
+
+/*Navigation Path*/
+
+#path {
+
+	width: 		900px;
+
+	height: 	30px;
+
+	padding:	0px 50px;
+
+	background: transparent url(../images/centerpx.png) repeat-y;
+
+}
+
+
+
+#path > li {
+
+	height: 		30px;
+
+	line-height: 	30px;
+
+	float: 			left;
+
+	font-size:		15px;
+
+	color:			#000000;
+
+}
+
+
+
+#path img {
+
+	width: 			20px;
+
+	height: 		20px;
+
+	margin: 		4px 5px 6px 5px;
+
+}
+
+
+
+#path a{
+
+	color: #000000;
+
+	text-decoration: none;
+
+	font-family: calibri_bold;
+
+}
+
+
+
+#path a:hover, #path a:focus{
+
+	text-decoration: underline;
+
+}
+
+
+
+
+
+/*Menu*/
+
+#menu {
+
+	width: 		1000px;
+
+	height:		70px;
+
+	background: transparent url(../images/centerpx.png) repeat-y;
+
+
+
+}
+
+
+
+#menu > ul {
+
+	width:		900px;
+
+	padding:	0px 50px;
+
+	height:		40px;
+
+}
+
+
+
+#menu > ul > li {
+
+	float:		left;
+
+	height:		40px;
+
+}
+
+
+
+#menu > ul > li > a {
+
+	display:		block;
+
+	height:			40px;
+
+	line-height:	40px;
+
+	padding:		0px 12px;
+
+	font-size:		21px;
+
+	font-family:	calibri;
+
+	text-decoration:none;
+
+	text-align:		center;
+
+}
+
+
+
+#menu > ul > li > a:hover, #menu > ul > li > a:focus, #menu > ul > li > a.active {
+
+	border-left:	solid #EFEFEF 2px;
+
+	border-right:	solid #EFEFEF 2px;
+
+	padding:		0px 10px;
+
+}
+
+
+
+/*SubMenu*/
+
+#menu > ul > li > ul {
+
+	margin-left: 10px;
+
+	display:	none;
+
+}
+
+
+
+#menu > ul > li > ul > li {
+
+	height:			30px;
+
+	line-height: 	30px;
+
+	font-size:		19px;
+
+	font-family:	calibri;
+
+	height:			30px;
+
+	display:		block;
+
+	float:			left;
+
+}
+
+
+
+#menu > ul > li > ul > li > a {
+
+	height:				30px;
+
+	line-height: 		30px;
+
+	font-size:			19px;
+
+	font-family:		calibri;
+
+	text-decoration:	none;
+
+	color:				#000000;
+
+	font-family:		calibri;
+
+	margin:				0px 2px;
+
+}
+
+
+
+#menu > ul > li > ul > li > a.active {
+
+	text-decoration: underline;
+
+}
+
+
+
+/*Intern Text*/
+
+#content {
+
+	width: 		900px;
+
+	background: transparent url(../images/centerpx.png) repeat-y;
+
+	padding: 	10px 50px;
+
+	min-height:	500px;
+
+}
+
+
+
+#left {
+
+	width:		650px;
+
+	float:		left;
+
+}
+
+
+
+#right {
+
+	width:			225px;
+
+	margin-left:	25px;
+
+	float:			left;
+
+}
+
+
+
+#editable_content p, #editable_content a, #left p, #right a {
+
+	margin-bottom:	10px;
+
+	font-size:		13px;
+
+	font-family:	arial, sans-serif;
+
+}
+
+
+
+#editable_content h1, #editable_content h2, #editable_content h3,
+
+#editable_content h4, #editable_content h5, #editable_content h6,
+
+#left h1, #left h2, #left h3, #left h4, #left h5, #left h6 {
+
+	font-size: 25px;
+
+	font-family: calibri_bold;
+
+	margin: 10px 0px;
+
+}
+
+
+
+#editable_content a, #right a {
+
+	text-decoration: 	none;
+
+	font-weight: 		bold;
+
+}
+
+
+
+#editable_content a:hover, #editable_content a:focus  {
+
+	text-decoration: underline;
+
+}
+
+#editable_content cite, #editable_content em {
+	font-style: italic;
+}
+
+#editable_content  address {
+	font-style: oblique;
+}
+
+#editable_content strong {
+	font-weight: bold;
+}
+
+#editable_content ul {
+	line-height: 110%;
+	list-style: disc inside;
+	margin: 0px 0px 10px 20px;
+}
+
+#editable_content ol {
+	line-height: 110%;
+	list-style: inside decimal-leading-zero;
+	margin: 0px 0px 10px 20px;
+}
+
+
+#editable_content li ul {
+	margin-bottom: 0px;
+	list-style-position: inside;
+}
+
+#editable_content ul ul {
+	margin-bottom: 0px;
+	list-style-position: inside;
+}
+
+#editable_content li ol {
+	margin-bottom: 0px;
+	list-style: inside decimal;
+}
+
+#editable_content ol ol {
+	margin-bottom: 0px;
+	list-style: inside decimal;
+}
+
+#editable_content ul ol {
+		margin-bottom: 0px;
+		list-style: inside decimal;
+}
+
+#editable_content ol ul {
+		margin-bottom: 0px;
+		list-style: inside square;
+}
+
+#editable_content li {
+		margin-bottom: 2px;
+}
+
+#editable_content tr, #editable_content td  {
+		border: #000000 2px solid;
+}
+
+#editable_content table {
+	margin-bottom: 10px;
+}
+
+#editable_content table td {
+	padding: 0px 10px;
+}
+
+#footer {
+
+	width: 900px;
+
+	height: 75px;
+
+	padding: 60px 50px 0px 50px;
+
+	background: transparent url(../images/bottom.png) top no-repeat;
+
+}
+
+
+
+#footer, #footer p, #footer a {
+
+	text-align:		center;
+
+	font-family:	arial, sans-serif;
+
+	font-size:		13px;
+
+	color:			#FFFFFF;
+
+}
+
+
+
+#footer a {
+
+	text-decoration: none;
+
+	font-style: italic;
+
+}
+
+
+
+
+
+#footer a:hover, #footer a:focus {
+
+	text-decoration: underline;
+
+}

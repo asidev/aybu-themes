@@ -1,0 +1,303 @@
+@charset "utf-8";
+
+/*
+ * Copyright © 2010 Asidev s.r.l. - www.asidev.com
+ */
+
+@font-face {
+	font-family: bradley;
+	src: url(../fonts/bradley.ttf);
+}
+
+@font-face {
+	font-family: dakota;
+	src: url(../fonts/dakota.otf);
+}
+
+html {
+	height:		101%;
+}
+
+body {
+	font-family:		bradley, comic sans ms;
+}
+
+a {
+	text-decoration:	none;
+}
+
+a:hover, a:focus {
+	text-decoration:	underline;
+}
+
+.reset {
+	float:		none;
+	clear:		both;
+	width:		0px !important;
+	height:		0px !important;
+}
+
+#wrap {
+	width:		900px;
+	margin:		0px auto;
+	box-shadow:	0px 0px 10px #555;
+}
+
+#header {
+	width:		900px;
+	height:		125px;
+	margin:		0px auto;
+}
+
+#header > h1 {
+	display:	none;
+}
+
+#header > h2 {
+	width:			630px;
+	height:			80px;
+	margin-left:	50px;
+	line-height:	80px;
+	font-family:	dakota, comic sans ms;
+	font-size:		24px;
+	float:			left;
+}
+
+#nav_bar {
+	width:			170px;
+	height:			115px;
+	margin:			10px 10px 0px 0px;
+	float:			right;
+}
+
+#nav_bar > div {
+	width:			170px;
+}
+
+#user, #languages {
+	float:			right;
+	margin-top:		15px;
+}
+
+#user > li {
+	float:			left;
+	font-size:		10px;
+	line-height:	16px;
+	margin-left:	3px;
+}
+
+#user > li > a {
+	display:		block;
+	float:			left;
+	font-size:		10px;
+	line-height:	16px;
+}
+
+#user > li > a:hover, #user > li > a:focus {
+	text-decoration:	none;
+	color:				#FFF;
+}
+
+#languages > li {
+	float:			left;
+	margin-left:	5px;
+}
+
+#languages > li > a > img {
+	height:			22px;
+}
+
+#languages > li > a {
+	opacity:		0.4;
+}
+
+#languages > li > a.active, #languages > li > a:hover,
+#languages > li > a:focus {
+	opacity:		1;
+}
+
+#logo_box {
+	/*
+	width:			100px;
+	height:			100px;
+	*/
+	margin-left:	10px;
+	margin-right:	40px;
+	float:			left;
+}
+
+
+#content_wrapper {
+	width:			600px;
+	float:			left;
+}
+
+#path {
+	width:			600px;
+	height:			30px;
+	margin:			0px auto;
+	font-family:	dakota, comic sans ms;
+}
+
+#path_flag {
+	height:			30px;
+}
+
+#path_flag > img {
+	height:			18px;
+	margin-top:		4px;
+	margin-right:	5px;
+}
+
+#path > li {
+	float:			left;
+	font-size:		12px;
+	line-height:	30px;
+	margin-right:	2px;
+}
+
+#path > li > a {
+	display:		block;
+	float:			left;
+	font-size:		12px;
+	line-height:	30px;
+}
+
+#admin_menu {
+	float:			left;
+	width:			150px;
+	margin-top:		10px;
+}
+
+#admin_menu > ul > li {
+	font-size:		11px;
+	line-height:	24px;
+	color:			#00B4E7;
+}
+
+#admin_menu > ul > li > a {
+	font-size:		11px;
+	line-height:	24px;
+	color:			#00B4E7;
+}
+
+#admin_menu > ul > li > a.active, #admin_menu > ul > li > a:hover,
+#admin_menu > ul > li > a:focus {
+	text-decoration:	underline;
+}
+
+#admin_menu + #content {
+	width:			430px !important;
+}
+
+#banner {
+	/*
+	width:					280px;
+	height:					230px;
+	*/
+	margin-top:				10px;
+	margin-right:			20px;
+	-webkit-border-radius:	10px;
+	-moz-border-radius:		10px;
+	border-radius:			10px;
+	float:					left;
+}
+
+#content {
+	width:			300px;
+	margin:			10px 0px 80px 0px;
+	min-height:		300px;
+	float:			left;
+}
+
+
+#editable_content {
+	font-size:		12px;
+	line-height:	100%;
+}
+
+#editable_content h1, #editable_content h2, #editable_content h3,
+#editable_content h4, #editable_content h5, #editable_content h6 {
+	font-size:		18px;
+	font-weight:	bold;
+	text-align:		left;
+	margin-bottom:	10px;
+}
+
+#editable_content p {
+	margin-bottom:	10px;
+}
+
+#editable_content ul, #editable_content ol {
+	list-style-position:	outside;
+	margin-bottom:			10px;
+}
+
+#editable_content ul {
+	margin-left:		15px;
+	list-style-type:	disc;
+}
+
+#editable_content ol {
+	margin-left:		28px;
+	list-style-type:	decimal-leading-zero;
+}
+
+#editable_content table {
+	margin-bottom:		10px;
+}
+
+#editable_content table tr td {
+	padding:		3px	5px;
+}
+
+#menu {
+	position:		relative;
+	left:			-100px;
+	margin-bottom:	30px;
+	font-family:	dakota, comic sans ms;
+}
+
+#menu > ul {
+}
+
+#menu > ul > li {
+	float:			left;
+	margin-right:	10px;
+}
+
+#menu > ul > li > a {
+	display:	block;
+	float:		left;
+}
+
+#menu > ul > li > a:hover, #menu > ul > li > a:focus,
+#menu > ul > li > a.active {
+	text-decoration:	none;
+}
+
+#footer {
+	width:			880px;
+	height:			30px;
+	line-height:	30px;
+	font-size:		12px;
+	position:		relative;
+	left:			-140px;
+}
+
+#footer a:hover, #footer a:focus {
+	text-decoration:	none;
+}
+
+#info {
+	float:		left;
+
+}
+
+#developer {
+	float:		right;
+}
+
+#developer a {
+	margin-left:	5px;
+}
